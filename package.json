@@ -5,14 +5,14 @@
   "main": "employeeTracker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": ""
+    "start": "nodemon employeeTracker.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iariyami/employee-tracker.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ibrahim Riyami",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iariyami/employee-tracker/issues"
