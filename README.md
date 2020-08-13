@@ -1,2 +1,3 @@
-# employee-tracker
+# Employee Tracker
+
 MySQL Employee Tracker
