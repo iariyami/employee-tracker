@@ -25,29 +25,43 @@ function runSearch() {
     .prompt({
       name: "action",
       type: "list",
-      message: "",
-      choices: ["", "", "", "", ""],
+      message: "Select your action",
+      choices: ["Add a Department",
+        "Add a new Role",
+        "Add an Employee",
+        "View Departments",
+        "View Roles",
+        "View Employees",
+        "Update Employee"],
     })
     .then(function (answer) {
       switch (answer.action) {
-        case "":
+        case "Add a Department":
           aSearch();
           break;
 
-        case "":
+        case "Add a new Role":
           bSearch();
           break;
 
-        case "":
+        case "Add an Employee":
           cSearch();
           break;
 
-        case "":
+        case "View all Departments":
           dSearch();
           break;
 
-        case "":
-          connection.end();
+        case "View all Roles":
+          eSearch();
+          break;
+
+        case "View all Roles":
+          fSearch();
+          break;
+
+        case "View all Departments":
+          gSearch();
           break;
       }
     });
